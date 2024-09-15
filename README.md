@@ -20,12 +20,13 @@ Adam Optimizer: With a low learning rate for fine-tuning the learning process
 **Results Section**
 
 **Loss and Accuracy:**
-268/268 - 1s - 2ms/step - accuracy: 0.7249 - loss: 0.5643
-Loss: 0.5643
-**Accuracy: 72.49%**
-The model achieved 72.49% accuracy on the test dataset. The model fell short of the 75% target accuracy.
+268/268 - 1s - 3ms/step - accuracy: 0.7279 - loss: 0.5660
+Loss: 0.565997838973999, Accuracy: 0.7279300093650818
+
+**Accuracy: 72.79%**
+The model achieved 72.79% accuracy on the test dataset. The model fell short of the 75% target accuracy.
 **Loss**
-The loss value after evaluation was 0.5643.
+The loss value after evaluation was 0.566.
 
 **Changes were made to the model to improve performance**
 
@@ -41,7 +42,7 @@ L2 regularization and dropout helped prevent overfitting but did not significant
 **Cross-Validation:** Applying cross-validation could give a more robust estimate of model performance.
 
 **Overall Results and Conclusion**
-The neural network model achieved an accuracy of 72.799%, which is slightly below the target of 75%. Although the model was fairly effective, it struggled to generalize better due to several potential factors like the complexity of the problem and the structure of the dataset.
+The neural network model achieved an accuracy of 72.79%, which is slightly below the target of 75%. Although the model was fairly effective, it struggled to generalize better due to several potential factors like the complexity of the problem and the structure of the dataset.
 
 
 **Exploring Alternative Models:**
@@ -57,11 +58,11 @@ Accuracy Stagnation: The overall accuracy of the model is stuck at 53% for both 
 
 Model Simplicity had only two hidden layers of 5 units each. This simplicity leads to fewer trainable parameters (261), meaning the model is fast to train but may struggle with capturing complex patterns in data.
 
-Activation Functions: The first hidden layer uses ReLU, a popular activation for introducing non-linearity, while the second hidden layer uses tanh, which scales outputs between -1 and 1, making it effective for handling negative inputs.
+Activation Functions: The first hidden layer uses **ReLU**, a popular activation for introducing non-linearity, while the second hidden layer uses **tanh**, which scales outputs between -1 and 1, making it effective for handling negative inputs.
 
 Output Layer: The model concludes with a sigmoid activation in the final layer, designed for binary classification, outputting probabilities between 0 and 1 for classifying inputs.
 
-The model has a loss of 0.5660, indicating moderate prediction errors, and an accuracy of 72.79%, which shows that it correctly predicts outcomes about 73% of the time, suggesting that while the model is fairly effective, it still falls short of the desired 75% accuracy and may need further tuning.
+The model optain similar results, with a loss of 0.5660, indicating moderate prediction errors, and an accuracy of 72.79%, which shows that it correctly predicts outcomes about 73% of the time, suggesting that while the model is fairly effective, it still falls short of the desired 75% accuracy and may need further tuning.
 
 **Other Model Performance Metrics:**
 
