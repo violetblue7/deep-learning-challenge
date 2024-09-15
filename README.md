@@ -81,17 +81,28 @@ The model has a loss of 0.5660, indicating moderate prediction errors, and an ac
 
 **Decision Tree (DT):** Performs well with an accuracy of 70.61%, and a strong F1-score of 72.52%, with balanced precision and recall.
 
-In summary, XGBoost and Gradient Boosting show the best overall performance with high accuracy, precision, recall, and F1-scores, making them the most effective models among those evaluated.
 
-                 Model  Accuracy  Precision    Recall  F1-Score
-4    Gradient Boosting  0.725131   0.724573  0.780285  0.751398
-6              XGBoost  0.726647   0.728733  0.775027  0.751168
-2             AdaBoost  0.720466   0.721405  0.773713  0.746644
-1        Random Forest  0.711837   0.724005  0.741292  0.732547
-3          Extra Trees  0.710554   0.724316  0.736692  0.730452
-7                   DT  0.706122   0.722041  0.728368  0.725191
-5          K-Neighbors  0.654344   0.639825  0.802410  0.711953
-0  Logistic Regression  0.467638   0.000000  0.000000  0.000000
+# Model Performance Comparison
+
+This section summarizes the performance metrics of different machine learning models used in the analysis. Each model's accuracy, precision, recall, and F1-score are presented to facilitate comparison.
+
+## Performance Metrics
+
+| Model              | Accuracy | Precision | Recall | F1-Score |
+|--------------------|----------|-----------|--------|----------|
+| Gradient Boosting  | 0.7251   | 0.7246    | 0.7803 | 0.7514   |
+| XGBoost            | 0.7266   | 0.7287    | 0.7750 | 0.7512   |
+| AdaBoost           | 0.7205   | 0.7214    | 0.7737 | 0.7466   |
+| Random Forest      | 0.7118   | 0.7240    | 0.7413 | 0.7325   |
+| Extra Trees        | 0.7106   | 0.7243    | 0.7367 | 0.7305   |
+| Decision Tree (DT) | 0.7061   | 0.7220    | 0.7284 | 0.7252   |
+| K-Neighbors        | 0.6543   | 0.6398    | 0.8024 | 0.7120   |
+| Logistic Regression| 0.4676   | 0.0000    | 0.0000 | 0.0000   |
+
+## Summary
+
+- **Best Performing Models**: XGBoost and Gradient Boosting exhibit the highest accuracy and balanced metrics across precision, recall, and F1-score.
+- **Least Effective Model**: Logistic Regression shows significantly lower performance across all metrics, indicating it may not be suitable for this classification task.
 
 **Visualizations**
 
