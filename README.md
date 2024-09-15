@@ -84,10 +84,6 @@ The model has a loss of 0.5660, indicating moderate prediction errors, and an ac
 
 # Model Performance Comparison
 
-This section summarizes the performance metrics of different machine learning models used in the analysis. Each model's accuracy, precision, recall, and F1-score are presented to facilitate comparison.
-
-## Performance Metrics
-
 | Model              | Accuracy | Precision | Recall | F1-Score |
 |--------------------|----------|-----------|--------|----------|
 | Gradient Boosting  | 0.7251   | 0.7246    | 0.7803 | 0.7514   |
@@ -99,7 +95,6 @@ This section summarizes the performance metrics of different machine learning mo
 | K-Neighbors        | 0.6543   | 0.6398    | 0.8024 | 0.7120   |
 | Logistic Regression| 0.4676   | 0.0000    | 0.0000 | 0.0000   |
 
-## Summary
 
 - **Best Performing Models**: XGBoost and Gradient Boosting exhibit the highest accuracy and balanced metrics across precision, recall, and F1-score.
 - **Least Effective Model**: Logistic Regression shows significantly lower performance across all metrics, indicating it may not be suitable for this classification task.
