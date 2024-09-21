@@ -70,7 +70,7 @@ The model optain similar results, with a loss of 0.5660, indicating moderate pre
 
 **Logistic Regression:** This model has the lowest performance with an accuracy of 46.76%, and it fails to detect positive instances (precision, recall, and F1-score are all 0), indicating poor predictive power.
 
-![alt text](LogisticRegression.png)
+![alt text](<LogisticRegression roc curve.png>)
 
 
 **Random Forest:** Shows strong results with an accuracy of 71.18%, high precision (72.40%), and recall (74.13%), leading to a robust F1-score of 73.25%.
