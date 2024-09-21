@@ -44,6 +44,8 @@ L2 regularization and dropout helped prevent overfitting but did not significant
 **Overall Results and Conclusion**
 The neural network model achieved an accuracy of 72.79%, which is slightly below the target of 75%. Although the model was fairly effective, it struggled to generalize better due to several potential factors like the complexity of the problem and the structure of the dataset.
 
+![alt text](Model_Accuracy.png)
+![alt text](Model_Lost.png)
 
 **Exploring Alternative Models:**
 
@@ -68,6 +70,9 @@ The model optain similar results, with a loss of 0.5660, indicating moderate pre
 
 **Logistic Regression:** This model has the lowest performance with an accuracy of 46.76%, and it fails to detect positive instances (precision, recall, and F1-score are all 0), indicating poor predictive power.
 
+![alt text](LogisticRegression.png)
+
+
 **Random Forest:** Shows strong results with an accuracy of 71.18%, high precision (72.40%), and recall (74.13%), leading to a robust F1-score of 73.25%.
 
 **AdaBoost:** Achieves a slightly higher accuracy of 72.05% compared to Random Forest, with improved recall (77.37%) and a high F1-score (74.66%), making it effective at handling positive instances.
@@ -75,6 +80,8 @@ The model optain similar results, with a loss of 0.5660, indicating moderate pre
 **Extra Trees:** Performs similarly to Random Forest with an accuracy of 71.06% and high precision (72.43%) and recall (73.67%), resulting in a good F1-score of 73.05%.
 
 **Gradient Boosting:** This model achieves the highest accuracy of 72.51% and a high F1-score of 75.14%, with strong recall (78.03%), indicating overall better performance.
+
+![alt text](GradientBoostingClassifier_Best.png)
 
 **K-Neighbors:** Has a lower accuracy of 65.43% but demonstrates high recall (80.24%), resulting in a reasonably good F1-score of 71.20%, though precision is slightly lower.
 
@@ -95,6 +102,8 @@ The model optain similar results, with a loss of 0.5660, indicating moderate pre
 | Decision Tree (DT) | 0.7061   | 0.7220    | 0.7284 | 0.7252   |
 | K-Neighbors        | 0.6543   | 0.6398    | 0.8024 | 0.7120   |
 | Logistic Regression| 0.4676   | 0.0000    | 0.0000 | 0.0000   |
+
+![alt text](Model_Evaluation_Comparisson.png)
 
 
 - **Best Performing Models**: XGBoost and Gradient Boosting exhibit the highest accuracy and balanced metrics across precision, recall, and F1-score.
